@@ -741,3 +741,11 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+.tech-icons a{
+  color: #fff;
+}
+.tech-icons a:hover{
+  color: #fff;
+}

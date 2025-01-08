@@ -8,7 +8,6 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
- 
 } from "react-icons/di";
 import {
   SiSupabase,
@@ -21,44 +20,66 @@ import {
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-     
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
+          <DiJavascript1 />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiBootstrap />
+        <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
+          <DiBootstrap />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">
+          <DiNodejs />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
+          <DiReact />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSupabase />
+        <a href="https://supabase.io/" target="_blank" rel="noopener noreferrer">
+          <SiSupabase />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
+          <DiMongodb />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMysql />
+        <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer">
+          <DiMysql />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGithub />
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <DiGithub />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAdobexd />
+        <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noopener noreferrer">
+          <SiAdobexd />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAirtable />
+        <a href="https://airtable.com/" target="_blank" rel="noopener noreferrer">
+          <SiAirtable />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <a href="https://www.heroku.com/" target="_blank" rel="noopener noreferrer">
+          <SiHeroku />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer">
+          <SiVercel />
+        </a>
       </Col>
-      
     </Row>
   );
 }

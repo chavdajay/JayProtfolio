@@ -12,26 +12,36 @@ import {
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-  
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer" className="tech-link">
+          <SiVisualstudiocode />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <a href="https://www.postman.com/" target="_blank" rel="noopener noreferrer" className="tech-link">
+          <SiPostman />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSupabase />
+        <a href="https://supabase.io/" target="_blank" rel="noopener noreferrer" className="tech-link">
+          <SiSupabase />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer" className="tech-link">
+          <SiVercel />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAirtable />
+        <a href="https://airtable.com/" target="_blank" rel="noopener noreferrer" className="tech-link">
+          <SiAirtable />
+        </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiOpenai />
+        <a href="https://openai.com/" target="_blank" rel="noopener noreferrer" className="tech-link">
+          <SiOpenai />
+        </a>
       </Col>
-
     </Row>
   );
 }
