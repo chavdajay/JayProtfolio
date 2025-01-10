@@ -592,7 +592,9 @@ button:focus {
   text-align: left !important;
   padding-left: 1px !important;
 }
-
+.about-img {
+  padding-top: 65px !important;
+}
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;

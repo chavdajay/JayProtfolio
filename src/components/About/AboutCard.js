@@ -14,9 +14,6 @@ function AboutCard() {
             I am currently employed as a software developer at Ashirwad Infotech.
             <br />
             I have completed MCA at Department of Computer Science in Maharaja Krishnakumarsinhji Bhavnagar University
-
-            I have completed MCA at Department of Computer Science from Maharaja Krishnakumarsinhji Bhavnagar University
-
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
