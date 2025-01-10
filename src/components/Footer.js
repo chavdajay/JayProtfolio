@@ -16,7 +16,7 @@ function Footer() {
           <h3>Designed and Developed by Chavda Jay</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} JC</h3>
+          <h3>&copy; {year} JC. All Rights Reserved.</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
